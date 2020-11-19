@@ -1,0 +1,114 @@
+
+body{
+	/* Imatge de fons de la pàgina */
+
+	background-image:url('../imatges/fons.jpg');
+	text-align: center;
+
+
+}
+
+#main{
+			width:680px;
+			margin:auto;
+			padding-left: 35px;
+			background-image:url('../imatges/fons_pelis.png');
+}
+
+#list-films{
+	text-align:left;
+	/*padding-left:40px;*/
+}
+
+/* Propietats del títol de la pàgina */
+h1{
+	font:bold italic 18px Arial;
+	color:#ffffff;
+	background:url('../imatges/palomita.png') no-repeat 7px 7px;
+	padding: 10px 0px 30px 40px;
+	background-color:#083256;
+	text-align:left;
+	border-radius: 5px;
+}
+
+/* classe de l'etiqueta bloc de cada pel·lícula */
+.pelicula{
+	 height: 140px;
+	 text-align: left;
+	 background-color: #ffffff;
+	 padding:5px;
+	 margin:5px;
+	 border-radius: 5px;
+}
+.img-polisse{
+	padding-left: 100px;
+	background:url("../imatges/peli_1.jpg") no-repeat center left;
+	background-size: 80px 112.4px;
+	min-height:120px;
+}
+
+.img-hugo{
+	padding-left: 112px;
+	background:url("../imatges/peli_2.jpg") no-repeat center left;
+	background-size: 80px 112.4px;
+	min-height:120px;
+}
+
+.img-marilyn{
+	padding-left: 112px;
+	background:url("../imatges/peli_3.jpg") no-repeat center left;
+	background-size: 80px 112.4px;
+	min-height:120px;
+}
+
+.img-whorse{
+	padding-left: 112px;
+	background:url("../imatges/peli_4.jpg") no-repeat center left;
+	background-size: 80px 112.4px;
+	min-height:120px;
+}
+
+.img-iblanco{
+	padding-left: 112px;
+	background:url("../imatges/peli_5.jpg") no-repeat center left;
+	background-size: 80px 112.4px;
+	min-height:120px;
+}
+
+.img-mujer-de-negro{
+	padding-left: 112px;
+	background:url("../imatges/peli_6.jpg") no-repeat center left;
+	background-size: 80px 112.4px;
+	min-height:120px;
+}
+
+.img-viaje-tierra-2{
+	padding-left: 112px;
+	background:url("../imatges/peli_7.jpg") no-repeat center left;
+	background-size: 80px 112.4px;
+	min-height:120px;
+}
+/* Propietats del títol de la pel·lícula */
+.pelicula h2{
+	padding:0;
+	padding-top:10px;
+	margin:3px;
+	font:bold 16px Arial;
+	color:#083256;
+}
+/* Propietats de la descripció pel·lícula */
+.pelicula p{
+	padding:0;
+	margin:3px;
+	font:normal 12px Arial;
+	color:#083256;
+	padding-bottom:20px;
+}
+/* Propietats dels enllaços */
+.pelicula a{
+	color:blue;
+}
+.pelicula a:hover{
+	color:orange;
+	font:normal 15px Arial;
+}
